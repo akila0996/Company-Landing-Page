@@ -250,6 +250,7 @@ img#upward-arrow {
 .plan-wrapper {
     display: flex;
     justify-content: center;
+    padding-bottom: 7rem;
 }
 .plan-details{
     width: 28%;
@@ -290,6 +291,61 @@ img#upward-arrow {
     padding: 10px 28px 10px 28px;
     cursor: pointer;
     margin-left: 6rem;
+}
+ /*----------FOOTER CSS---------*/
+ footer h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 120px;
+    text-align: center;
+    color: #453e36;
+}
+section#form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.field input {
+    color: #a6a6a9;
+    border: none;
+    padding-bottom: 10px;
+    margin-top: 75px;
+    border-bottom: solid rgb(241, 237, 237) 3px;
+    border-radius: 0;
+    width: 330px;
+}
+.field button {
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 75px;
+    padding: 15px 100px 15px 100px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.textarea{
+    text-align: center;
+    padding-bottom: 120px;
+}
+#message {
+    color: gray;
+    border: none;
+    margin-top: 15px;
+    border-bottom: solid rgb(241, 237, 237) 3px;
+    width: 70%;
+}
+#copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 32rem;
+    padding-bottom: 40px;
+    color: #a0a1a2;
+}
+.socialmedia a {
+    color: black;
+    margin-right: 30px;
 }
 
                    /*----------MEDIA QUERY---------*/
@@ -387,6 +443,20 @@ img#down-arrow {
 .plan-details {
     width: 100%;
 }
+footer h1 {margin-top: 50px;margin-bottom: 10px;}
+.textarea{padding-bottom: 45px;}
+section#form-section {
+    display: block;
+    text-align: center;
+}
+#message{width: 80%;}
+#copyright-wrapper {
+    display: block;
+    text-align: center;
+}
+.socialmedia {
+    margin-top: 20px;
+}
 }
 
                        /*----------tablet---------*/
@@ -440,6 +510,13 @@ img#down-arrow {
 .plan-details button {
     margin-left: 1rem;
  }
+ section#form-section {
+    display: block;
+    text-align: center;
+}
+.field input{width: 90%;}
+#message{width: 90%;}
+#copyright-wrapper{gap: 15rem;}
  }
 
                           /*----------medium device---------*/
