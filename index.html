@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Landing Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <!-----------BACKGROUND IMAGE SECTION--------------->   
+    <section class="background-banner">
+        <div class="background-image">
+            <!-----------SIDE MENU SECTION------------->
+     <div  id="side-menu" class="side-menu">
+        <button id="closenav" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></button>
+    <ul>
+        <li>Home</li>
+        <li>Features</li>
+        <li>About us</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+    </ul>
+    </div>
+    
+    <!-----------HEADER SECTION--------------->
+    <header class="header">
+       <h1>soft landing</h1>
+            <nav class="navbar" id="navmenu">
+                <a href="index.html">Home</a>
+                <a href="#Features">Features</a>
+                <a href="#About us">About us</a>
+                <a href="#Pricing">Pricing</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+            <p>Say hello - info@soft.co</p>
+            <button onclick="openNav()" class="open-nav" ><i class="fa-solid fa-bars"></i></button>
+        </header>
+        <div class="form-field">
+        <h5>PROFESSIONAL LANDING PAGE</h5>  
+        <h1>We help you manage your<br>
+            website successfully!</h1>
+            <div class="form">
+            <input type="text" name="username" placeholder="Enter your email" required>
+            <button type="submit">Get started</button>
+        </div> 
+        </div>
+    </div> 
+    </section>
+ <!-----------CATALOG SECTION--------------->
+ <section class="catalog-text">
+<div class="details-wrap">
+<h1>What you get</h1>
+<div class="details-text">
+<a href="#">responsive</a>
+<a href="#">mobile</a>
+<a href="#">support</a>
+</div>
+<div class="para">
+<h2>Minimal Design</h2>
+<p>Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula
+    ornare, pellentesque velit eget, vestibulum est. Donec pretium tristique elit eget
+    sodales. Pellentesque posuere.</p>
+<h2>Easy to use</h2>
+<p>Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac
+    felis sagittis, faucibus mauris vitae, placerat mauris.</p>
+</div>
+</div>
+<div class="laptap-image">
+<img src="images/feature-mockup.png">
+</div>
+ </section>
+
+<main>
+    <!-----------TEAM SECTION--------------->
+    <section class="teams">
+        <h2>Professional Team for you</h2>
+    <div class="wrapper">
+    <!-----------TEAM MEAMBER 1--------------->
+        <div class="team-member">
+        <div class="image-wrapper1">
+        <img class="triangleimage" src="images/image3.png">
+        </div>
+        <div class="content-wrapper">
+        <h1>Andrew Orange</h1>
+        <h4>Art Director</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing eiusmod tempor incididunt ut
+            labore et dolore magna.</p>
+        </div>
+        </div>
+     <!----------- TEAM MEAMBER 2--------------->
+        <div class="team-member">
+        <div class="content-wrapper" id="content-two">
+            <h1>Catherine Soft</h1>
+            <h4>Senior Manager</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing eiusmod tempor incididunt ut
+                labore et dolore magna.</p>
+        </div>   
+        <div class="image-wrapper2">
+        <img class="triangleimage2" src="images/arrow.png" id="down-arrow">
+        <img class="triangleimage" src="images/image3.png" id="upward-arrow">
+        </div>    
+        </div>
+      <!-----------TEAM MEAMBER 3 --------------->  
+        <div class="team-member">
+        <div class="image-wrapper3">
+        <img class="triangleimage" src="images/image3.png">
+        </div>
+        <div class="content-wrapper">
+            <h1>Jack Wilson</h1>
+            <h4>CEO/Founder</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing eiusmod tempor incididunt ut
+                labore et dolore magna.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-----------PLANS SECTION--------------->
+    <section class="plans">
+     <h2>choose any plan</h2>
+     <div class="plan-wrapper">
+            <div id="studnt" class="plan-details">
+                <h3>Student</h3>
+                <p>20 Responsive Designs</p>
+                <p>10 Dashboards </p> 
+                <p>1 TB Storage </p>
+                <p>6 TB Bandwidth </p> 
+                <p>24-hour Support </p> 
+                <h4>$200/mo</h4>
+                <button> Register now</button>
+            </div>
+            <div id="business" class="plan-details">
+                <h3>Business</h3>
+                <p>50 Responsive Designs</p>
+                <p>30 Dashboards </p> 
+                <p>2 TB Storage </p>
+                <p>12 TB Bandwidth </p> 
+                <p>15-minute Support </p> 
+                <h4>$350/mo</h4>
+                <button> Register now</button>
+            </div>
+            <div id="professional" class="plan-details">
+                <h3>Professional</h3>
+                <p>100 Responsive Designs</p>
+                <p>60 Dashboards </p> 
+                <p>5 TB Storage </p>
+                <p>25 TB Bandwidth </p> 
+                <p>1-min Support </p> 
+                <h4> $550/mo</h4>
+                <button> Register now</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!----------- JS SCRIPT --------------->
+<script>
+    function openNav(){
+        document.getElementById("side-menu").style.display="block";
+    }
+    function closeNav(){
+        document.getElementById("side-menu").style.display="none";
+    }
+</script>
+</body>
+</html>

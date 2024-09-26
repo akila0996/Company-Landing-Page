@@ -1,0 +1,484 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+ /*----------NAVBAR CSS---------*/
+ header.header {
+    padding: 1.9rem 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 3rem;
+    color: white;
+    font-weight: 600;
+}
+nav.navbar{
+    margin-right: 10rem;
+}
+.header h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.open-nav{
+    display: none;
+}
+/*----------SIDE NAVEBAR CSS---------*/
+.side-menu{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #444b61;
+    width: 20vw;
+    text-align: center;
+  }
+   li:hover{  
+    border-radius: 25px;
+    color: black;
+   }
+  .side-menu ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 1.8rem;
+  }
+  .side-menu ul li{
+    list-style-type: none;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-bottom: solid 1px;
+    text-transform: uppercase;
+  }
+  .side-menu button{
+    border: none;
+    background-color: red;
+    color: white;
+    position:absolute;
+    right: 0;
+  }
+/*----------BACKGROUND IMAGE CSS---------*/
+
+.background-image{
+    background:linear-gradient(120deg, #030e31e6, #5b6c7af7), url("images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+/*----------FORM CSS---------*/
+.form-field {
+    position: relative;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;
+}
+.form-field h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+.form-field h1 {
+    font-size: 45px;
+    font-weight: 300;
+    padding: 10px;
+}
+input[type="text"] {
+    width: 290px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+.form button {
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #28ca8d;
+    color: white;
+    position: relative;
+    right: 80px;
+}
+.form {
+    margin-left: 77px;
+}
+/*----------CATALOG CSS---------*/
+.details-wrap {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 121px 17px;
+}
+.laptap-image {
+    width: 43%;
+    display: inline-block;
+}
+.details-wrap h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #333333;
+    margin: 20px 63px;
+}
+.details-text a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #a5a5a5;
+    margin: 10px;
+    position: relative;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+.details-text a:hover{
+    color: black;
+}
+
+.details-text a::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:0;
+    height: 3px;
+    width: 0%;
+    transition: all .5s;
+    background: #28ca8d;
+ }
+ .details-text a:hover::before{
+    width: 100%; 
+}
+.details-wrap h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #6b6765;
+    margin: 15px;
+}
+.details-wrap p{
+    margin: 15px;
+    color: #7b7b7b;
+}
+.details-text {
+    margin: 30px 45px;
+}
+.para{
+    margin: 20px 47px;
+}
+     /*----------TEAM MEMBER CSS---------*/
+main {
+height: auto;
+background-color: #f9f9f9;
+}
+.teams h2 {
+    font-size: 42px;
+    font-weight: 200;
+    text-align: center;
+    padding: 50px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.team-member{
+    min-height: 623px;
+    width: 28%;
+}
+.image-wrapper1{
+    background: url("images/team-image1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.image-wrapper2{
+    background: url("images/team-image2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.image-wrapper3{
+    background: url("images/team-image3.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.triangleimage {
+    width: 28px;
+    position: relative;
+    top: 392px;
+    left: 185px;
+}
+.triangleimage2{
+    width: 28px;
+    position: relative; 
+    left: 185px;
+    top: -1px;  
+}
+.content-wrapper h1 {
+    font-weight: 300;
+}
+.content-wrapper h4 {
+    font-weight: 400;
+    margin-top: 5px;
+}
+.content-wrapper p{
+    color: #a1a3a1;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.content-wrapper {
+    padding: 35px;
+    background-color: #ffffff;
+}
+img#upward-arrow {
+    display: none;
+}
+
+  /*---------PLANS CSS---------*/
+.plans h2 {
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    padding: 50px;
+    margin-top: 5rem;
+}
+.plan-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.plan-details{
+    width: 28%;
+    background-color: white;
+    margin-left: 2px;
+}
+.plan-details h3 {
+    font-size: 27px;
+    font-weight: 300;
+    border-bottom: solid rgb(241, 237, 237) 2px;
+    width: 80%;
+    margin: 30px 0px 30px 30px;
+    padding-bottom: 10px;
+}
+.plan-details p {
+    color: gray;
+    line-height: 2;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.plan-details :nth-child(6) {
+    padding-bottom: 20px;
+    border-bottom: solid rgb(241, 237, 237) 3px;
+    width: 80%;
+}
+.plan-details h4 {
+    margin: 30px 0px 30px 30px;
+    font-weight: 600;
+    font-size: 19px;
+    color: #595858;
+    display: inline-block;
+}
+.plan-details button {
+    background-color: #29ca8e;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 28px 10px 28px;
+    cursor: pointer;
+    margin-left: 6rem;
+}
+
+                   /*----------MEDIA QUERY---------*/
+
+                     /*----------mobile---------*/
+@media (max-width:600px){
+   #navmenu{
+    display: none;
+   }
+   .open-nav{
+    display: block;
+   }
+   .side-menu{
+    width: 35vw;
+    height: 253px;
+    right: 0;
+   }
+   .header p {
+    display: none;
+}
+header.header {
+    background-color: white;
+    color: black;
+}
+.form-field{
+    margin-top: 9rem;
+}
+.form-field h1{
+    font-size: 20px;
+}
+input[type="text"] {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form button{
+    width: 80%;
+    height: 40px;
+    position: static;
+}
+.form {
+    margin-left: 0;
+}
+.details-wrap {
+    width: 100%;
+    padding: 35px 17px;
+}
+.laptap-image {
+    width: 100%;
+}
+.details-wrap h1 {
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.details-text {
+    margin: 10px 0px;
+}
+.details-text a{margin: 20px 18px;}
+.para {
+    margin: 0;
+}
+.teams h2 {
+    font-size: 29px;
+}
+.wrapper {
+    display: block;
+}
+.team-member {
+    width: 100%;
+    position: relative;
+}
+#content-two{
+    position: absolute;
+    bottom: 0;
+}
+img#upward-arrow {
+    position: relative;
+    top: 383px;
+    left: 187px;
+    display: block;
+}
+img#down-arrow {
+    display: none;
+}
+.triangleimage {
+    left: 176px;
+}
+.plans h2 {
+    padding: 23px;
+}
+.plan-wrapper {
+    display: block;
+}
+.plan-details {
+    width: 100%;
+}
+}
+
+                       /*----------tablet---------*/
+ @media(min-width:601px) and (max-width:767.99px){
+    #navmenu{
+        display: none;
+       }
+       .open-nav{
+        display: block;
+       }   
+       .header p {
+        display: none;
+    }
+    .side-menu{
+        width: 35vw;
+        height: 253px;
+       }
+   .form-field{
+        margin-top: 2rem;
+    }
+    .details-wrap {
+        width: 100%;
+        padding: 35px 17px;
+    }
+    .laptap-image {
+        width: 100%;
+    }
+    .details-wrap h1 {
+        font-size: 30px;
+        margin: 10px 10px;
+    }
+    .details-text {
+        margin: 10px 0px;
+    }
+    .details-text a{margin: 20px 18px;}
+    .para {
+        margin: 0;
+    }
+    .team-member {
+        width: 33%;
+    }
+    .triangleimage {
+        left: 112px;
+}
+.triangleimage2 {
+    left: 115px;
+}
+.plan-details {
+    width: 33%;
+}
+.plan-details button {
+    margin-left: 1rem;
+ }
+ }
+
+                          /*----------medium device---------*/
+
+@media(min-width:769px) and (max-width:992px){
+.navbar a {
+        margin-left: 1rem;
+}
+nav.navbar {
+    margin-right: 1rem;
+}
+.form-field {
+    margin-top: 3rem;
+}
+.details-wrap {
+    padding: 0;
+}
+.triangleimage {
+    left: 126px;
+}
+.triangleimage2 {
+    left: 131px;
+}
+.plan-details h4 {
+    margin: 30px 0px 30px 24px;
+}
+.plan-details button {
+    margin-left:0;
+}
+}
+                           /*----------laptop---------*/
+@media(min-width:993px) and (max-width:2000px){
+.navbar a {
+        margin-left: 2.5rem;
+}
+nav.navbar {
+    margin-right: 0rem;
+}
+.form-field {
+    margin-top: 8rem;
+}
+}
